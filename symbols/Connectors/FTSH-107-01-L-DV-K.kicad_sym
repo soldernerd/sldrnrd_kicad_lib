@@ -1,0 +1,156 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator lfaes_kicad_lib)
+
+  (symbol "FTSH-107-01-L-DV-K"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "J"
+          (id 0)
+          (at 0 12.70 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "FTSH-107-01-L-DV-K"
+          (id 1)
+          (at 0 -12.70 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "lfaes:HDR-SMD-14-1.27"
+          (id 2)
+          (at 0 -15.24 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C5307809.pdf"
+          (id 3)
+          (at 0 -17.78 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Manufacturer"
+          "SAMTEC"
+          (id 4)
+          (at 0 -20.32 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "MPN"
+          "FTSH-107-01-L-DV-K"
+          (id 5)
+          (at 0 -22.86 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "LCSC Part"
+          "C5307809"
+          (id 6)
+          (at 0 -25.40 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (symbol "FTSH-107-01-L-DV-K_0_1"
+          (rectangle
+            (start -5.08 10.16)
+            (end 5.08 -10.16)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (circle
+            (center -3.81 8.89)
+            (radius 0.38)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin unspecified line
+            (at -7.62 7.62 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "01" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 -7.62 180)
+            (length 2.54)
+            (name "14" (effects (font (size 1.27 1.27))))
+            (number "14" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 5.08 0)
+            (length 2.54)
+            (name "3" (effects (font (size 1.27 1.27))))
+            (number "03" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 -5.08 180)
+            (length 2.54)
+            (name "12" (effects (font (size 1.27 1.27))))
+            (number "12" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 2.54 0)
+            (length 2.54)
+            (name "5" (effects (font (size 1.27 1.27))))
+            (number "05" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 -2.54 180)
+            (length 2.54)
+            (name "10" (effects (font (size 1.27 1.27))))
+            (number "10" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 -0.00 0)
+            (length 2.54)
+            (name "7" (effects (font (size 1.27 1.27))))
+            (number "07" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 -0.00 180)
+            (length 2.54)
+            (name "8" (effects (font (size 1.27 1.27))))
+            (number "08" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 -2.54 0)
+            (length 2.54)
+            (name "9" (effects (font (size 1.27 1.27))))
+            (number "09" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 2.54 180)
+            (length 2.54)
+            (name "6" (effects (font (size 1.27 1.27))))
+            (number "06" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 -5.08 0)
+            (length 2.54)
+            (name "11" (effects (font (size 1.27 1.27))))
+            (number "11" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 5.08 180)
+            (length 2.54)
+            (name "4" (effects (font (size 1.27 1.27))))
+            (number "04" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -7.62 -7.62 0)
+            (length 2.54)
+            (name "13" (effects (font (size 1.27 1.27))))
+            (number "13" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 7.62 7.62 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "02" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+)

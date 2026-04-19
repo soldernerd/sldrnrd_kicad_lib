@@ -1,0 +1,79 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator lfaes_kicad_lib)
+
+  (symbol "CPT-9019A-SMT-TR"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "BZ"
+          (id 0)
+          (at 0 6.35 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "CPT-9019A-SMT-TR"
+          (id 1)
+          (at 0 -6.35 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "lfaes:CPT-9019A"
+          (id 2)
+          (at 0 -8.89 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C20181991.pdf"
+          (id 3)
+          (at 0 -11.43 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Manufacturer"
+          "CUI"
+          (id 4)
+          (at 0 -13.97 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "MPN"
+          "CPT-9019A-SMT-TR"
+          (id 5)
+          (at 0 -16.51 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "LCSC Part"
+          "C20181991"
+          (id 6)
+          (at 0 -19.05 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (symbol "CPT-9019A-SMT-TR_0_1"
+          (polyline
+            (pts
+              (xy 2.79 -2.79) (xy -1.27 -2.79) (xy -1.27 2.79) (xy 2.79 2.79) (xy 6.35 6.35) (xy 6.35 -6.35) (xy 2.79 -2.79)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin unspecified line
+            (at -6.35 -1.27 0)
+            (length 5.08)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -6.35 1.27 0)
+            (length 5.08)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+)

@@ -1,0 +1,121 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator lfaes_kicad_lib)
+
+  (symbol "24LC256-I_ST"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "U"
+          (id 0)
+          (at 0 11.43 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "24LC256-I/ST"
+          (id 1)
+          (at 0 -11.43 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "lfaes:TSSOP-8"
+          (id 2)
+          (at 0 -13.97 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/EEPROM_MICROCHIP_24LC256-I-ST_24LC256-I-ST_C87823.html"
+          (id 3)
+          (at 0 -16.51 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Manufacturer"
+          "MICROCHIP(美国微芯)"
+          (id 4)
+          (at 0 -19.05 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "MPN"
+          "24LC256-I/ST"
+          (id 5)
+          (at 0 -21.59 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "LCSC Part"
+          "C87823"
+          (id 6)
+          (at 0 -24.13 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "ki_keywords"
+          "EEPROM"
+          (id 8)
+          (at 0 -26.67 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (symbol "24LC256-I_ST_0_1"
+          (rectangle
+            (start -7.62 8.89)
+            (end 7.62 -8.89)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin unspecified line
+            (at -12.70 6.35 0)
+            (length 5.08)
+            (name "A0" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin bidirectional line
+            (at 12.70 -1.27 180)
+            (length 5.08)
+            (name "SDA" (effects (font (size 1.27 1.27))))
+            (number "5" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -12.70 1.27 0)
+            (length 5.08)
+            (name "A2" (effects (font (size 1.27 1.27))))
+            (number "3" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at -12.70 3.81 0)
+            (length 5.08)
+            (name "A1" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 12.70 6.35 180)
+            (length 5.08)
+            (name "WP" (effects (font (size 1.27 1.27))))
+            (number "7" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at 12.70 -6.35 180)
+            (length 5.08)
+            (name "VSS" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified clock
+            (at 12.70 1.27 180)
+            (length 5.08)
+            (name "SCL" (effects (font (size 1.27 1.27))))
+            (number "6" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at -12.70 -6.35 0)
+            (length 5.08)
+            (name "VCC" (effects (font (size 1.27 1.27))))
+            (number "8" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+)
