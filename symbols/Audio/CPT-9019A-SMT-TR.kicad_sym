@@ -21,14 +21,14 @@
         )
         (property
           "Footprint"
-          "lfaes:CPT-9019A"
+          "sldrnrd:CPT-9019A"
           (id 2)
           (at 0 -8.89 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Datasheet"
-          "https://www.lcsc.com/datasheet/C20181991.pdf"
+          "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019A.pdf"
           (id 3)
           (at 0 -11.43 0)
           (effects (font (size 1.27 1.27) ) hide)
@@ -48,7 +48,7 @@
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
-          "LCSC Part"
+          "LCSC"
           "C20181991"
           (id 6)
           (at 0 -19.05 0)

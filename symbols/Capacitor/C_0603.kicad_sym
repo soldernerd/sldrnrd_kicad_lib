@@ -9,7 +9,7 @@
     			(on_board yes)
     			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Value" "C_0603" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "lfaes:C_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:C_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "Capacitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "C_0603_0_1"

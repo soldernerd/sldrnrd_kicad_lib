@@ -9,7 +9,7 @@
     			(on_board yes)
     			(property "Reference" "D" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Value" "LED_0603" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "lfaes:LED_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:LED_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "LED" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "LED_0603_0_1"

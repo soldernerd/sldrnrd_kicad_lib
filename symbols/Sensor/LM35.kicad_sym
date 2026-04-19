@@ -9,10 +9,10 @@
     			(on_board yes)
     			(property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.27 1.27))))
     			(property "Value" "LM35" (at 0 -6.35 0) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "lfaes:SOT-23" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:SOT-23" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Sensor/LM35.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "LM35 Analog Temperature Sensor 10mV/C" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "LCSC Part" "C9900081740" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C9900081740" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "LM35_0_1"
     				(rectangle (start -5.08 5.08) (end 5.08 -5.08)
     					(stroke (width 0.254) (type default)) (fill (type background)))
