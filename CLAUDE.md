@@ -26,6 +26,7 @@ Be concise in your answers and answer only the question asked. I will tell you i
 - Every symbol must have exactly one footprint assigned. Multiple symbols may reference the same footprint file.
 - New folders and subfolders may be created as needed (e.g. a new microcontroller family).
 - Category folder names are singular (e.g. `Connector`, not `Connectors`).
+- Pin placement must mirror the physical pinout of the component (e.g. pin 1 top-left, pin order following the datasheet package diagram).
 
 The canonical folder structure is:
 
