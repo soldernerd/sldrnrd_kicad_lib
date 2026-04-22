@@ -1,4 +1,4 @@
-(module lfaes:FPC-10-0.5 (layer F.Cu) (tedit 5DC5F6A4)
+(module lfaes:Header_FFC_0.5mm_10 (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -5.626) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))
@@ -39,7 +39,7 @@
 	(fp_line (start 4.05 -0.97) (end 4.05 4.63) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.05 4.63) (end -4.05 4.63) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -2.798724 4.250334) (xy -1.823720 4.250309) (xy -2.298725 3.050337) (xy -2.798724 4.250334)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "../3dmodels/FPC-10-0.5.wrl"
+	(model "../3dmodels/Header_FFC_0.5mm_10.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -2,7 +2,7 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "AFA07-S10FCC-00"
+  (symbol "Header_FFC_0.5mm_10"
         (in_bom yes)
         (on_board yes)
         (property
@@ -14,54 +14,54 @@
         )
         (property
           "Value"
-          "AFA07-S10FCC-00"
+          "Header_FFC_0.5mm_10"
           (id 1)
           (at 0 -21.59 0)
           (effects (font (size 1.27 1.27) ) )
         )
         (property
           "Footprint"
-          "sldrnrd:FPC-10-1.0"
+          "sldrnrd:Header_FFC_0.5mm_10"
           (id 2)
           (at 0 -24.13 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Datasheet"
-          "${SLDRNRD_LIB}/datasheets/Connector/FFC/AFA07.pdf"
+          "${SLDRNRD_LIB}/datasheets/Connector/FFC/FH12.pdf"
           (id 3)
           (at 0 -26.67 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Manufacturer"
-          "JUSHUO"
+          "Hirose"
           (id 4)
           (at 0 -29.21 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "MPN"
-          "AFA07-S10FCC-00"
+          "FH12-10S-0.5SH(55)"
           (id 5)
           (at 0 -31.75 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "LCSC"
-          "C52162"
+          "C506791"
           (id 6)
           (at 0 -34.29 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "ki_keywords"
-          "FFC FPC connector 1mm ZIF"
+          "FFC/FPC Connectors"
           (id 8)
           (at 0 -36.83 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
-        (symbol "AFA07-S10FCC-00_0_1"
+        (symbol "Header_FFC_0.5mm_10_0_1"
           (rectangle
             (start -2.54 13.97)
             (end 5.08 -13.97)
@@ -137,13 +137,13 @@
           (pin unspecified line
             (at 3.81 -16.51 90)
             (length 2.54)
-            (name "MT1" (effects (font (size 1.27 1.27))))
+            (name "11" (effects (font (size 1.27 1.27))))
             (number "11" (effects (font (size 1.27 1.27))))
           )
           (pin unspecified line
             (at 3.81 16.51 270)
             (length 2.54)
-            (name "MT2" (effects (font (size 1.27 1.27))))
+            (name "12" (effects (font (size 1.27 1.27))))
             (number "12" (effects (font (size 1.27 1.27))))
           )
         )
