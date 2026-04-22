@@ -24,7 +24,7 @@ Be concise in your answers and answer only the question asked. I will tell you i
 ### Symbols
 - One `.kicad_sym` file per component, placed in the appropriate category subfolder.
 - Every symbol must have exactly one footprint assigned. Multiple symbols may reference the same footprint file.
-- New folders and subfolders may be created as needed (e.g. a new microcontroller family).
+- Do not create new folders or subfolders without explicit user approval.
 - Category folder names are singular (e.g. `Connector`, not `Connectors`).
 - Pin placement must mirror the physical pinout of the component (e.g. pin 1 top-left, pin order following the datasheet package diagram).
 
@@ -97,14 +97,14 @@ symbols/
 - **Footprints:** standard package name (e.g. `SOIC-8`, `SOT-23-5`, `TSSOP-14`).
 
 ### Commit and push workflow
-Before committing and pushing to the master branch, Claude must:
+Before committing, Claude must:
 
 1. **Check spec adherence** — verify all symbols, footprints, datasheets, and 3D models conform to the conventions in this file. Fix any violations automatically.
 2. **Check footprint existence** — every footprint referenced by a symbol must exist in `sldrnrd.pretty/`. Create any missing footprint automatically.
 3. **Check datasheet existence** — every complex component symbol must have a datasheet. Download any missing datasheet automatically from the manufacturer's website or a trusted distributor (Mouser, Farnell, Digikey, Octopart, or similar).
 4. **Check 3D model existence** — every footprint must have a corresponding `.step` file in `3dmodels/`. Source and save any missing 3D model automatically from a trustworthy source (GrabCAD, SnapEDA, manufacturer, or similar).
 5. **Renames and moves** — renaming or moving a component that has already been pushed to GitHub breaks existing designs and requires explicit user confirmation before proceeding. Renames and moves of components not yet pushed to GitHub may be done automatically.
-6. Once all checks pass (or fixes are applied), commit and push to master.
+6. Once all checks pass (or fixes are applied), commit to master locally. **Do not push to GitHub** — ask the user first before running `git push`.
 
 ### JLCPCB / LCSC part numbers
 - If a component is available on JLCPCB, include its LCSC part number as a symbol field named `LCSC` (e.g. `C123456`).
