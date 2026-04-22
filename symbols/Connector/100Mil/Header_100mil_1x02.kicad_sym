@@ -21,7 +21,7 @@
         )
         (property
           "Footprint"
-          "sldrnrd:Header-1x02"
+          "sldrnrd:Header_100mil_1x02"
           (id 2)
           (at 0 -7.62 0)
           (effects (font (size 1.27 1.27) ) hide)
