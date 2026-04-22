@@ -1,0 +1,54 @@
+(module USB_C (layer F.Cu) (tedit 20211014)
+  (descr "USB Type-C receptacle, TYPE-C-31-M-12, SMD")
+  (tags "USB Type-C SMD")
+  (attr smd)
+
+  (fp_text reference REF** (at 0 -4.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value USB_C (at 0 6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  ; Signal pads - Y = -2.47mm
+  (pad A1B12 smd rect (at -3.20 -2.47) (size 0.60 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad A4B9  smd rect (at -2.40 -2.47) (size 0.60 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B8    smd rect (at -1.75 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad A5    smd rect (at -1.25 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B7    smd rect (at -0.75 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad A6    smd rect (at -0.25 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad A7    smd rect (at  0.25 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B6    smd rect (at  0.75 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad A8    smd rect (at  1.25 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B5    smd rect (at  1.75 -2.47) (size 0.30 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B4A9  smd rect (at  2.40 -2.47) (size 0.60 1.30) (layers F.Cu F.Paste F.Mask))
+  (pad B1A12 smd rect (at  3.20 -2.47) (size 0.60 1.30) (layers F.Cu F.Paste F.Mask))
+
+  ; Mounting pads
+  (pad 1 smd oval (at  4.33 -1.71) (size 1.20 2.00) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd oval (at  4.33  2.47) (size 1.20 1.80) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd oval (at -4.33  2.47) (size 1.20 1.80) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd oval (at -4.33 -1.71) (size 1.20 2.00) (layers F.Cu F.Paste F.Mask))
+
+  ; Courtyard
+  (fp_line (start -4.93 -3.13) (end  4.93 -3.13) (layer F.CrtYd) (width 0.05))
+  (fp_line (start  4.93 -3.13) (end  4.93  5.10) (layer F.CrtYd) (width 0.05))
+  (fp_line (start  4.93  5.10) (end -4.93  5.10) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -4.93  5.10) (end -4.93 -3.13) (layer F.CrtYd) (width 0.05))
+
+  ; Fab outline (connector body ~8.94 x 7.35mm)
+  (fp_line (start -4.47 -3.00) (end  4.47 -3.00) (layer F.Fab) (width 0.10))
+  (fp_line (start  4.47 -3.00) (end  4.47  4.35) (layer F.Fab) (width 0.10))
+  (fp_line (start  4.47  4.35) (end -4.47  4.35) (layer F.Fab) (width 0.10))
+  (fp_line (start -4.47  4.35) (end -4.47 -3.00) (layer F.Fab) (width 0.10))
+
+  ; Silkscreen (outside courtyard)
+  (fp_line (start -4.93 -3.13) (end  4.93 -3.13) (layer F.SilkS) (width 0.12))
+
+  ; 3D model
+  (model "${SLDRNRD_LIB}/3dmodels/USB_C.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
