@@ -96,6 +96,15 @@ symbols/
 - **Datasheets:** broadest part number covered by the datasheet (e.g. `PIC16F184xx.pdf`, `RN4871.pdf`).
 - **Footprints:** standard package name (e.g. `SOIC-8`, `SOT-23-5`, `TSSOP-14`).
 
+### Master symbol library
+
+`symbols/sldrnrd.kicad_sym` is the single combined library file that KiCad projects reference. It must always be kept in sync with the individual per-component `.kicad_sym` files.
+
+- Every symbol that exists as an individual file under `symbols/<category>/` must also appear in `sldrnrd.kicad_sym`.
+- Symbol names inside `sldrnrd.kicad_sym` are prefixed with their category path: `"Category/SubCategory/SymbolName"` (e.g. `"Power/LinearRegulator/LP5907MFX-3.3_NOPB"`).
+- Whenever a new symbol is added or an existing one is modified, update `sldrnrd.kicad_sym` in the same commit.
+- When adding to `sldrnrd.kicad_sym`: copy the symbol body verbatim from the individual file, change only the symbol name to add the category prefix, and append it before the final closing `)` of the file.
+
 ### Commit and push workflow
 Before committing, Claude must:
 
@@ -103,8 +112,9 @@ Before committing, Claude must:
 2. **Check footprint existence** — every footprint referenced by a symbol must exist in `sldrnrd.pretty/`. Create any missing footprint automatically.
 3. **Check datasheet existence** — every complex component symbol must have a datasheet. Download any missing datasheet automatically from the manufacturer's website or a trusted distributor (Mouser, Farnell, Digikey, Octopart, or similar).
 4. **Check 3D model existence** — every footprint must have a corresponding `.step` file in `3dmodels/`. Source and save any missing 3D model automatically from a trustworthy source (GrabCAD, SnapEDA, manufacturer, or similar).
-5. **Renames and moves** — renaming or moving a component that has already been pushed to GitHub breaks existing designs and requires explicit user confirmation before proceeding. Renames and moves of components not yet pushed to GitHub may be done automatically.
-6. Once all checks pass (or fixes are applied), commit to master locally. **Do not push to GitHub** — ask the user first before running `git push`.
+5. **Update sldrnrd.kicad_sym** — add or update every new/changed symbol in the master library file (see above).
+6. **Renames and moves** — renaming or moving a component that has already been pushed to GitHub breaks existing designs and requires explicit user confirmation before proceeding. Renames and moves of components not yet pushed to GitHub may be done automatically.
+7. Once all checks pass (or fixes are applied), commit to master locally. **Do not push to GitHub** — ask the user first before running `git push`.
 
 ### JLCPCB / LCSC part numbers
 - If a component is available on JLCPCB, include its LCSC part number as a symbol field named `LCSC` (e.g. `C123456`).
