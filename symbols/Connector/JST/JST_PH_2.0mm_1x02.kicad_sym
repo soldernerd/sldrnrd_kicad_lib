@@ -2,18 +2,18 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "B2B-PH-K"
+  (symbol "JST_PH_2.0mm_1x02"
         (in_bom yes)
         (on_board yes)
         (property "Reference" "J" (id 0) (at 0 5.08 0) (effects (font (size 1.27 1.27) ) ))
-        (property "Value" "B2B-PH-K" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27) ) ))
-        (property "Footprint" "sldrnrd:B2B-PH-K" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27) ) hide))
-        (property "Datasheet" "${SLDRNRD_LIB}/datasheets/Connector/100Mil/ePH.pdf" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27) ) hide))
+        (property "Value" "JST_PH_2.0mm_1x02" (id 1) (at 0 -5.08 0) (effects (font (size 1.27 1.27) ) ))
+        (property "Footprint" "sldrnrd:JST_PH_2.0mm_1x02" (id 2) (at 0 -7.62 0) (effects (font (size 1.27 1.27) ) hide))
+        (property "Datasheet" "${SLDRNRD_LIB}/datasheets/Connector/JST/ePH.pdf" (id 3) (at 0 -10.16 0) (effects (font (size 1.27 1.27) ) hide))
         (property "Manufacturer" "JST" (id 4) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) hide))
         (property "MPN" "B2B-PH-K-S" (id 5) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
         (property "LCSC" "C131337" (id 6) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide))
         (property "ki_keywords" "JST PH 2mm connector battery 2-pin through-hole" (id 8) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
-        (symbol "B2B-PH-K_0_1"
+        (symbol "JST_PH_2.0mm_1x02_0_1"
           (rectangle (start -3.81 2.54) (end 3.81 -2.54) (stroke (width 0) (type default)) (fill (type background)))
           (circle (center -2.54 1.27) (radius 0.38) (stroke (width 0) (type default)) (fill (type none)))
           (pin unspecified line (at -6.35 1.27 0) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
