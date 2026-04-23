@@ -2,18 +2,15 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "FTSH-107-01-L-DV-K"
+  (symbol "Header_50mil_2x07"
     (in_bom yes)
     (on_board yes)
     (property "Reference" "J" (id 0) (at 0 12.70 0) (effects (font (size 1.27 1.27) ) ))
-    (property "Value" "FTSH-107-01-L-DV-K" (id 1) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) ))
-    (property "Footprint" "sldrnrd:FTSH-107-01-L-DV-K" (id 2) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "Datasheet" "${SLDRNRD_LIB}/datasheets/Connector/100Mil/FTSH-107.pdf" (id 3) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "Manufacturer" "Samtec" (id 4) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "MPN" "FTSH-107-01-L-DV-K" (id 5) (at 0 -22.86 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "LCSC" "C5307809" (id 6) (at 0 -25.40 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "ki_keywords" "header SMD 1.27mm dual-row 2x7 14-pin debug" (id 8) (at 0 -27.94 0) (effects (font (size 1.27 1.27) ) hide))
-    (symbol "FTSH-107-01-L-DV-K_0_1"
+    (property "Value" "Header_50mil_2x07" (id 1) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) ))
+    (property "Footprint" "sldrnrd:Header_50mil_2x07" (id 2) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "Datasheet" "" (id 3) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "ki_keywords" "header SMD 1.27mm dual-row 2x7 14-pin" (id 8) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
+    (symbol "Header_50mil_2x07_0_1"
       (rectangle (start -5.08 10.16) (end 5.08 -10.16) (stroke (width 0) (type default)) (fill (type background)))
       (circle (center -3.81 8.89) (radius 0.38) (stroke (width 0) (type default)) (fill (type none)))
       (pin unspecified line (at -7.62 7.62 0) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "01" (effects (font (size 1.27 1.27)))))
