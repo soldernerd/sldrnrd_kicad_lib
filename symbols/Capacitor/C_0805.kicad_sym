@@ -3,6 +3,7 @@
   (generator lfaes_kicad_lib)
 
   (symbol "C_0805"
+    			(pin_numbers hide)
     			(pin_names (offset 0) hide)
     			(exclude_from_sim no)
     			(in_bom yes)

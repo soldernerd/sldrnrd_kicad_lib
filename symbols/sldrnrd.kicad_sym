@@ -280,6 +280,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Capacitor/C_0805"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -9733,6 +9736,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Green_0603"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -9907,6 +9913,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Green_0805"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -10081,6 +10090,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Red_0603"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -10255,6 +10267,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Red_0805"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -10429,6 +10444,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Yellow_0603"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -10603,6 +10621,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LED/LED_Yellow_0805"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -16846,6 +16867,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "Diode/BAT54WS"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17037,6 +17065,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "Diode/B5819W"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)

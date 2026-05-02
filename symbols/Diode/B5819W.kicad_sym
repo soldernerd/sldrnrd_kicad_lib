@@ -5,6 +5,8 @@
   (symbol "B5819W"
         (in_bom yes)
         (on_board yes)
+        (pin_names (offset 0) hide)
+        (pin_numbers hide)
         (property
           "Reference"
           "D"
