@@ -10042,7 +10042,7 @@
 		)
 		(symbol "LED/LED_Green_0805_1_1"
 			(pin passive line
-				(at 0 2.54 270)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -10060,7 +10060,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -10390,7 +10390,7 @@
 		)
 		(symbol "LED/LED_Red_0805_1_1"
 			(pin passive line
-				(at 0 2.54 270)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -10408,7 +10408,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -10564,7 +10564,7 @@
 		)
 		(symbol "LED/LED_Yellow_0603_1_1"
 			(pin passive line
-				(at 0 2.54 270)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -10582,7 +10582,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
@@ -10738,7 +10738,7 @@
 		)
 		(symbol "LED/LED_Yellow_0805_1_1"
 			(pin passive line
-				(at 0 2.54 270)
+				(at 3.81 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -10756,7 +10756,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name "K"
 					(effects
