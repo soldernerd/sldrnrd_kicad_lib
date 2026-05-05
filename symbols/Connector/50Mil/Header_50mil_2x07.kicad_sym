@@ -9,7 +9,10 @@
     (property "Value" "Header_50mil_2x07" (id 1) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) ))
     (property "Footprint" "sldrnrd:Header_50mil_2x07" (id 2) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
     (property "Datasheet" "" (id 3) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "ki_keywords" "header SMD 1.27mm dual-row 2x7 14-pin" (id 8) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "Manufacturer" "Samtec" (id 4) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "MPN" "FTSH-107-01-L-DV-K-A" (id 5) (at 0 -22.86 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "LCSC" "C5563894" (id 6) (at 0 -25.40 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "ki_keywords" "header SMD 1.27mm dual-row 2x7 14-pin" (id 8) (at 0 -27.94 0) (effects (font (size 1.27 1.27) ) hide))
     (symbol "Header_50mil_2x07_0_1"
       (rectangle (start -5.08 10.16) (end 5.08 -10.16) (stroke (width 0) (type default)) (fill (type background)))
       (circle (center -3.81 8.89) (radius 0.38) (stroke (width 0) (type default)) (fill (type none)))
