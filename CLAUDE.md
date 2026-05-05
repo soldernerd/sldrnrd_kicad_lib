@@ -61,6 +61,7 @@ symbols/
     BatteryManagement/
     ChargePump/
     LinearRegulator/
+  PowerFlag/
   Resistor/
   Sensor/
   Transistor/
