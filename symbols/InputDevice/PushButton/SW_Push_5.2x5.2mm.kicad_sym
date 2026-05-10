@@ -24,7 +24,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_Push_5.2x5.2mm_0_1"
-      ; Switch graphic: two contacts and a push lever
       (circle (center -2.54 0) (radius 0.508)
         (stroke (width 0) (type default))
         (fill (type none))
@@ -37,7 +36,6 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      ; Plunger arrow
       (polyline (pts (xy 0 1.27) (xy 0 2.54))
         (stroke (width 0) (type default))
         (fill (type none))

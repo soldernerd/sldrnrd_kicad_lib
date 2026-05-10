@@ -27,6 +27,13 @@
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
+          "Datasheet"
+          "~"
+          (id 3)
+          (at 0 0 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
           "Manufacturer"
           "BOOMELE"
           (id 4)

@@ -61,7 +61,7 @@ symbols/
     BatteryManagement/
     ChargePump/
     LinearRegulator/
-  PowerFlag/
+  PowerFlag/    # power-net symbols (VCC, GND, 3V3, 5V0); distinct from Power/ which holds power-management ICs
   Resistor/
   Sensor/
   Transistor/
@@ -83,7 +83,7 @@ symbols/
 - Filename must match the corresponding footprint name exactly (e.g. `SOT-23-5.step` for `SOT-23-5.kicad_mod`).
 
 ### Datasheets
-- Required for complex components (ICs, displays, modules, etc.); omitted for simple passives (resistors, capacitors, generic diodes, etc.).
+- Required for complex components (ICs, displays, modules, etc.). For simple passives (resistors, capacitors, generic diodes, generic headers, LEDs, power-net flags, etc.) the symbol's `Datasheet` field should be `~` rather than empty or absent — every symbol must have a `Datasheet` property.
 - Stored as PDF in `datasheets/<category>/` — mirroring the `symbols/` folder structure.
 - Use a short, recognisable filename (full part number, without variant suffix if the datasheet covers the whole family).
 - Claude downloads the datasheet from the manufacturer's website or a trusted distributor (Mouser, Farnell, Digikey, Octopart, or similar).

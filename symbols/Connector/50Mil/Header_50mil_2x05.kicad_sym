@@ -8,7 +8,7 @@
     (property "Reference" "J" (id 0) (at 0 10.16 0) (effects (font (size 1.27 1.27) ) ))
     (property "Value" "Header_50mil_2x05" (id 1) (at 0 -10.16 0) (effects (font (size 1.27 1.27) ) ))
     (property "Footprint" "sldrnrd:Header_50mil_2x05" (id 2) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) hide))
-    (property "Datasheet" "" (id 3) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
+    (property "Datasheet" "~" (id 3) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide))
     (property "Manufacturer" "Samtec" (id 4) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide))
     (property "MPN" "FTSH-105-01-L-DV-K" (id 5) (at 0 -20.32 0) (effects (font (size 1.27 1.27) ) hide))
     (property "LCSC" "C5155080" (id 6) (at 0 -22.86 0) (effects (font (size 1.27 1.27) ) hide))
