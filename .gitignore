@@ -10,3 +10,6 @@ _autosave-*
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Claude Code local settings
+.claude/
