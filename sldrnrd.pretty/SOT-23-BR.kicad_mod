@@ -24,7 +24,7 @@
 	(fp_line (start -0.65 -1.45) (end 0.65 -1.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 0.65 1.45) (end -0.65 1.45) (layer F.CrtYd) (width 0.05))
-	(model "../3dmodels/SOT-23-BR.wrl"
+	(model "../3dmodels/SOT-23-BR.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))

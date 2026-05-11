@@ -39,7 +39,7 @@
 	(fp_line (start 4.05 -0.97) (end 4.05 4.63) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 4.05 4.63) (end -4.05 4.63) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy -2.798724 4.250334) (xy -1.823720 4.250309) (xy -2.298725 3.050337) (xy -2.798724 4.250334)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "../3dmodels/Header_FFC_0.5mm_10.wrl"
+	(model "../3dmodels/Header_FFC_0.5mm_10.step"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
