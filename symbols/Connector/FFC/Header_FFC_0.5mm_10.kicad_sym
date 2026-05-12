@@ -28,28 +28,28 @@
         )
         (property
           "Datasheet"
-          "${SLDRNRD_LIB}/datasheets/Connector/FFC/FH12.pdf"
+          "${SLDRNRD_LIB}/datasheets/Connector/FFC/AFC07-S10FCA-00.pdf"
           (id 3)
           (at 0 -26.67 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Manufacturer"
-          "Hirose"
+          "JUSHUO"
           (id 4)
           (at 0 -29.21 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "MPN"
-          "FH12-10S-0.5SH(55)"
+          "AFC07-S10FCA-00"
           (id 5)
           (at 0 -31.75 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "LCSC"
-          "C506791"
+          "C262557"
           (id 6)
           (at 0 -34.29 0)
           (effects (font (size 1.27 1.27) ) hide)
