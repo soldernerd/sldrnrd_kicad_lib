@@ -1,12 +1,15 @@
 (footprint "C_0603"
 	(version 20260206)
-	(generator "kicad-footprint-generator")
+	(generator "pcbnew")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "capacitor")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e2ebf2f3-1599-421a-949d-239732e6f87a")
 		(effects
 			(font
 				(size 1 1)
@@ -17,6 +20,8 @@
 	(property "Value" "C_0603_1608Metric"
 		(at 0 1.43 0)
 		(layer "F.Fab")
+		(hide yes)
+		(uuid "d92a15ab-1d6a-4055-b150-8b5eb05b0ca1")
 		(effects
 			(font
 				(size 1 1)
@@ -24,10 +29,33 @@
 			)
 		)
 	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf7df946-30e1-4ac1-a657-0353abb8428f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e9374a0-0289-447d-9a80-afae7a5018e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
+		(uuid "3ba15b49-78bc-4a56-a898-936bdca52ccf")
 		(effects
 			(font
 				(size 1 1)
@@ -45,6 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "8c5ac411-3281-4b88-b52a-58b87e9dc53d")
 	)
 	(fp_line
 		(start -0.14058 0.51)
@@ -54,6 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "71e972cd-e6d7-4c73-b291-620392be52f1")
 	)
 	(fp_rect
 		(start -1.48 -0.73)
@@ -64,6 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
+		(uuid "7de827ee-1939-48f0-bc9a-5d1c5f305c46")
 	)
 	(fp_rect
 		(start -0.8 -0.4)
@@ -74,10 +105,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
+		(uuid "19448d80-18da-42eb-8f7b-7546b754b7e4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
+		(uuid "6bf461b4-fc3c-4142-a47f-b544bc0fefac")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -90,12 +123,14 @@
 		(size 0.9 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "fbc84370-4739-47d2-942a-5a07f3e2ac0f")
 	)
 	(pad "2" smd roundrect
 		(at 0.775 0)
 		(size 0.9 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "2ef4c550-d183-433d-877b-48e01fdf58bf")
 	)
 	(embedded_fonts no)
 	(model "../3dmodels/C_0603.step"

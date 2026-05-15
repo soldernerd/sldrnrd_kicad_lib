@@ -1,12 +1,15 @@
 (footprint "R_0603"
 	(version 20260206)
-	(generator "kicad-footprint-generator")
+	(generator "pcbnew")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "resistor")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec768819-d310-471e-ac72-57f6b2c44743")
 		(effects
 			(font
 				(size 1 1)
@@ -17,6 +20,8 @@
 	(property "Value" "R_0603_1608Metric"
 		(at 0 1.43 0)
 		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5c5fb57-334e-4ea2-95d2-732bf0d8b45c")
 		(effects
 			(font
 				(size 1 1)
@@ -24,10 +29,33 @@
 			)
 		)
 	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78ac183f-32ff-4fe0-b301-72c63dd7a34f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc3ac03c-9efe-48fa-b979-8ddbbdc297c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
+		(uuid "b1d3570a-11f6-455c-aba8-ad2e374d7801")
 		(effects
 			(font
 				(size 1 1)
@@ -45,6 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "e1048a1b-eb15-47e0-9d41-627b61edaa09")
 	)
 	(fp_line
 		(start -0.237258 0.5225)
@@ -54,6 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "0273b8d9-c999-48b4-8a25-dcae62df09d8")
 	)
 	(fp_rect
 		(start -1.48 -0.73)
@@ -64,6 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
+		(uuid "443d1afb-b582-4f4f-b69a-31f64bba4fd0")
 	)
 	(fp_rect
 		(start -0.8 -0.4125)
@@ -74,10 +105,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
+		(uuid "eb0ae5de-59f8-4f20-92cd-c82c56de1544")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
+		(uuid "a183be84-8278-480c-bb1c-a078f9ee61aa")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -90,12 +123,14 @@
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "80aecc82-3b9f-43ad-83cd-acced7d019da")
 	)
 	(pad "2" smd roundrect
 		(at 0.825 0)
 		(size 0.8 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "c6a01202-c786-4aa9-90cc-d1ac2e470f37")
 	)
 	(embedded_fonts no)
 	(model "../3dmodels/R_0603.step"
