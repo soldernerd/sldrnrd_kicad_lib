@@ -21,7 +21,7 @@
         )
         (property
           "Footprint"
-          "sldrnrd:SOT-23-BR"
+          "sldrnrd:SOT-23-3"
           (id 2)
           (at 0 -17.78 0)
           (effects (font (size 1.27 1.27) ) hide)

@@ -16660,7 +16660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:SOT-23"
+		(property "Footprint" "sldrnrd:SOT-23-3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17372,7 +17372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:SOT-23"
+		(property "Footprint" "sldrnrd:SOT-23-3"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17962,7 +17962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:SOT-23-BR"
+		(property "Footprint" "sldrnrd:SOT-23-3"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
