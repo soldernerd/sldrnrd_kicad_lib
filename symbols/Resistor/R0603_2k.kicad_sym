@@ -2,25 +2,25 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "R0603_100k"
+  (symbol "R0603_2k"
     			(pin_numbers hide)
     			(pin_names (offset 0) hide)
     			(exclude_from_sim no)
     			(in_bom yes)
     			(on_board yes)
     			(property "Reference" "R" (at 2.032 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "100k" (at -2.032 0 90) (effects (font (size 1.27 1.27))))
+    			(property "Value" "2k" (at -2.032 0 90) (effects (font (size 1.27 1.27))))
     			(property "Footprint" "sldrnrd:R_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Description" "100k Resistor, 0603, 1%, 75V, 100mW" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Description" "2k Resistor, 0603, 1%, 75V, 100mW" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Manufacturer" "Uni-Royal" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "MPN" "0603WAF1003T5E" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "LCSC" "C25803" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(symbol "R0603_100k_0_1"
+    			(property "MPN" "0603WAF2001T5E" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C22975" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(symbol "R0603_2k_0_1"
     				(rectangle (start -1.016 -2.54) (end 1.016 2.54)
     					(stroke (width 0.254) (type default)) (fill (type none)))
     			)
-    			(symbol "R0603_100k_1_1"
+    			(symbol "R0603_2k_1_1"
     				(pin passive line (at 0 3.81 270) (length 1.27)
     					(name "~" (effects (font (size 1.27 1.27))))
     					(number "1" (effects (font (size 1.27 1.27))))

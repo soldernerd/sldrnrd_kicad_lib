@@ -12,7 +12,10 @@
     			(property "Value" "68k" (at -2.032 0 90) (effects (font (size 1.27 1.27))))
     			(property "Footprint" "sldrnrd:R_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Description" "68k Resistor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Description" "68k Resistor, 0603, 1%, 75V, 100mW" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Uni-Royal" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "0603WAF6802T5E" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C23231" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "R0603_68k_0_1"
     				(rectangle (start -1.016 -2.54) (end 1.016 2.54)
     					(stroke (width 0.254) (type default)) (fill (type none)))
