@@ -213,6 +213,7 @@
 				)
 			)
 		)
+    			(property "LCSC" "C14663" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0603_100n_0_1"
 			(polyline
 				(pts
@@ -345,6 +346,7 @@
 				)
 			)
 		)
+    			(property "LCSC" "C57112" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0603_10n_0_1"
 			(polyline
 				(pts
@@ -20853,6 +20855,7 @@
     			(property "Footprint" "sldrnrd:C_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "1nF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C1588" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "Capacitor/C0603_1n_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
@@ -20882,6 +20885,7 @@
     			(property "Footprint" "sldrnrd:C_0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "1uF Capacitor, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C28323" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "Capacitor/C0805_1u_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
