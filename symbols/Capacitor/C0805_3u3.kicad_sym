@@ -13,6 +13,11 @@
     			(property "Footprint" "sldrnrd:C_0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "3.3uF Capacitor, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C354351" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "16V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "GCM21BR71C335KA73L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "C0805_3u3_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))

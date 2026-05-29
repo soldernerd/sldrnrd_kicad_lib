@@ -214,6 +214,10 @@
 			)
 		)
     			(property "LCSC" "C14663" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0603_100n_0_1"
 			(polyline
 				(pts
@@ -347,6 +351,10 @@
 			)
 		)
     			(property "LCSC" "C57112" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Fenghua" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "0603B103K500NT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0603_10n_0_1"
 			(polyline
 				(pts
@@ -479,6 +487,11 @@
 				)
 			)
 		)
+    			(property "LCSC" "C29936" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "25V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Samsung" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CL10B105KA8NNNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0603_1u_0_1"
 			(polyline
 				(pts
@@ -611,6 +624,11 @@
 				)
 			)
 		)
+    			(property "LCSC" "C1952580" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "10V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CC0805KKX7R6BB106" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0805_10u_0_1"
 			(polyline
 				(pts
@@ -743,6 +761,11 @@
 				)
 			)
 		)
+    			(property "LCSC" "C354351" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "16V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "GCM21BR71C335KA73L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(symbol "Capacitor/C0805_3u3_0_1"
 			(polyline
 				(pts
@@ -20856,6 +20879,10 @@
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "1nF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "LCSC" "C1588" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Samsung" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CL10B102KB8NNNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "Capacitor/C0603_1n_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
@@ -20886,6 +20913,10 @@
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "1uF Capacitor, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "LCSC" "C28323" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Samsung" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CL21B105KBFNNNE" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "Capacitor/C0805_1u_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
@@ -20915,6 +20946,11 @@
     			(property "Footprint" "sldrnrd:C_0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "2.2uF Capacitor, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C126589" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "16V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "GCM21BR71C225KA64L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "Capacitor/C0805_2u2_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))

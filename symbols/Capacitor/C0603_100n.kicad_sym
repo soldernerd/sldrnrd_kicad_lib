@@ -14,6 +14,10 @@
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "100nF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "LCSC" "C14663" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Yageo" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CC0603KRX7R9BB104" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "C0603_100n_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))

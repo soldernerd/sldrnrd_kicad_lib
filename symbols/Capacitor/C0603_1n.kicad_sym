@@ -14,6 +14,10 @@
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Description" "1nF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "LCSC" "C1588" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "Samsung" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "CL10B102KB8NNNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "C0603_1n_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
