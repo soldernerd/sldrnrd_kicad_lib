@@ -1,0 +1,134 @@
+(footprint "C_1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -2.0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567801")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_1206_3216Metric"
+		(at 0 2.0 0)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567803")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567804")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.975)
+		(end 0.5 -0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567805")
+	)
+	(fp_line
+		(start -0.5 0.975)
+		(end 0.5 0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567806")
+	)
+	(fp_rect
+		(start -2.95 -1.05)
+		(end 2.95 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567807")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567808")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567809")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.875 0)
+		(size 1.9 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567810")
+	)
+	(pad "2" smd roundrect
+		(at 1.875 0)
+		(size 1.9 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567811")
+	)
+	(embedded_fonts no)
+	(model "../3dmodels/C_1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
