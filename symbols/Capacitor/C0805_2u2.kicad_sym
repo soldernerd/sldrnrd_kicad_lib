@@ -10,14 +10,94 @@
     			(on_board yes)
     			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Value" "2u2" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Description" "2.2uF Capacitor, 0805" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "LCSC" "C126589" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Voltage" "16V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Manufacturer" "Murata" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "MPN" "GCM21BR71C225KA64L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:C_0805"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Datasheet" "~"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Description" "2.2uF Capacitor, 0805"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "LCSC" "C126589"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Dielectric" "X7R"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Voltage" "16V"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Manufacturer" "Murata"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "MPN" "GCM21BR71C225KA64L"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
     			(symbol "C0805_2u2_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))

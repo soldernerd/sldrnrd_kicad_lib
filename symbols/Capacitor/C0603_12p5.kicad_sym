@@ -10,11 +10,61 @@
     			(on_board yes)
     			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Value" "12p5" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Description" "12.5pF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Dielectric" "C0G" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Voltage" "50V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:C_0603"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Datasheet" "~"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Description" "12.5pF Capacitor, 0603"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Dielectric" "C0G"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Voltage" "50V"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
     			(symbol "C0603_12p5_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))

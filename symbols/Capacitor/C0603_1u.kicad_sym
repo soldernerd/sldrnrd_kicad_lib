@@ -10,14 +10,94 @@
     			(on_board yes)
     			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Value" "1u" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Description" "1uF Capacitor, 0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "LCSC" "C29936" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Dielectric" "X7R" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Voltage" "25V" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Manufacturer" "Samsung" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "MPN" "CL10B105KA8NNNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Footprint" "sldrnrd:C_0603"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Datasheet" "~"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Description" "1uF Capacitor, 0603"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "LCSC" "C29936"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Dielectric" "X7R"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Voltage" "25V"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "Manufacturer" "Samsung"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
+    			(property "MPN" "CL10B105KA8NNNC"
+    				(at 0 0 0)
+    				(show_name no)
+    				(do_not_autoplace no)
+    				(hide yes)
+    				(effects
+    					(font
+    						(size 1.27 1.27)
+    					)
+    				)
+    			)
     			(symbol "C0603_1u_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
