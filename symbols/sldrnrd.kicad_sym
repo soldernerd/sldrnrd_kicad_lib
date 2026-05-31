@@ -21116,769 +21116,1286 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Capacitor/C0603_1n"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1nF Capacitor, 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_1n_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_1n_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C0603_1n"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "1n" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "1nF Capacitor, 0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C1588"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "X7R"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "50V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Samsung"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "CL10B102KB8NNNC"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0603_1n_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0603_1n_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C0805_1u"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0805"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF Capacitor, 0805"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KBFNNNE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0805_1u_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0805_1u_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C0805_1u"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "1u" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0805"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "1uF Capacitor, 0805"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C28323"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "X7R"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "50V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Samsung"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "CL21B105KBFNNNE"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0805_1u_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0805_1u_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C0805_2u2"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u2"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0805"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2uF Capacitor, 0805"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C126589"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM21BR71C225KA64L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0805_2u2_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0805_2u2_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C0805_2u2"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "2u2" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0805"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "2.2uF Capacitor, 0805"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C126589"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "X7R"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "16V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Murata"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "GCM21BR71C225KA64L"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0805_2u2_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0805_2u2_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C1206_10u"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_1206"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF Capacitor, 1206"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C70462"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC1206KKX7R8BB106"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C1206_10u_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C1206_10u_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C1206_10u"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "10u" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_1206"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "10uF Capacitor, 1206"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C70462"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "X7R"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "25V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Yageo"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "CC1206KKX7R8BB106"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C1206_10u_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C1206_10u_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C0603_12p5"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12p5"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12.5pF Capacitor, 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_12p5_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_12p5_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C0603_12p5"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "12p5" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "12.5pF Capacitor, 0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "C0G"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "50V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0603_12p5_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0603_12p5_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C0603_20p"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20p"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20pF Capacitor, 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1648"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10C200JB8NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_20p_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_20p_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 
-  (symbol "Capacitor/C0603_20p"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "20p" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "20pF Capacitor, 0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C1648"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "C0G"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "50V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Samsung"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "CL10C200JB8NNNC"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0603_20p_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0603_20p_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
-
-  (symbol "Capacitor/C0603_10u"
-    			(pin_numbers hide)
-    			(pin_names (offset 0) hide)
-    			(exclude_from_sim no)
-    			(in_bom yes)
-    			(on_board yes)
-    			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "10u" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Footprint" "sldrnrd:C_0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Datasheet" "~"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Description" "10uF Capacitor, 0603"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "LCSC" "C344022"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Dielectric" "X5R"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Voltage" "25V"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "Manufacturer" "Murata"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(property "MPN" "GRM188R61E106KA73D"
-    				(at 0 0 0)
-    				(show_name no)
-    				(do_not_autoplace no)
-    				(hide yes)
-    				(effects
-    					(font
-    						(size 1.27 1.27)
-    					)
-    				)
-    			)
-    			(symbol "Capacitor/C0603_10u_0_1"
-    				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
-    					(stroke (width 0.3048) (type default)) (fill (type none)))
-    			)
-    			(symbol "Capacitor/C0603_10u_1_1"
-    				(pin passive line (at 0 2.54 270) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "1" (effects (font (size 1.27 1.27))))
-    				)
-    				(pin passive line (at 0 -2.54 90) (length 2.032)
-    					(name "~" (effects (font (size 1.27 1.27))))
-    					(number "2" (effects (font (size 1.27 1.27))))
-    				)
-    			)
-    		)
+	(symbol "Capacitor/C0603_10u"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at -2.54 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF Capacitor, 0603"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C344022"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_10u_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.508) (xy 1.524 0.508)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Capacitor/C0603_10u_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.032)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
