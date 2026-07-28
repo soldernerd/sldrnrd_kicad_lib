@@ -1,0 +1,192 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator lfaes_kicad_lib)
+
+  (symbol "AD826ARZ-REEL7"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "U"
+          (id 0)
+          (at 0 8.89 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "AD826ARZ-REEL7"
+          (id 1)
+          (at 0 -8.89 0)
+          (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "sldrnrd:SOIC-8"
+          (id 2)
+          (at 0 -11.43 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Datasheet"
+          "${SLDRNRD_LIB}/datasheets/OpAmp/AD826.pdf"
+          (id 3)
+          (at 0 -13.97 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Manufacturer"
+          "Analog Devices"
+          (id 4)
+          (at 0 -16.51 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "MPN"
+          "AD826ARZ-REEL7"
+          (id 5)
+          (at 0 -19.05 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "LCSC"
+          "C114171"
+          (id 6)
+          (at 0 -21.59 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "Description"
+          "Dual high-speed, low-power voltage-feedback video op-amp, SOIC-8."
+          (id 7)
+          (at 0 0 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (property
+          "ki_keywords"
+          "operational amplifier dual high speed low power voltage feedback video op-amp"
+          (id 8)
+          (at 0 -24.13 0)
+          (effects (font (size 1.27 1.27) ) hide)
+        )
+        (symbol "AD826ARZ-REEL7_1_1"
+          (polyline
+            (pts
+              (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.54 0) (xy -2.54 2.54)
+            )
+            (stroke (width 0.25) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -1.651 1.27) (xy -0.889 1.27)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.27 0.889) (xy -1.27 1.651)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.651 -1.27) (xy -0.889 -1.27)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (pin input line
+            (at -5.08 1.27 0)
+            (length 2.54)
+            (name "+IN1" (effects (font (size 1.27 1.27))))
+            (number "3" (effects (font (size 1.27 1.27))))
+          )
+          (pin input line
+            (at -5.08 -1.27 0)
+            (length 2.54)
+            (name "-IN1" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin output line
+            (at 5.08 0 180)
+            (length 2.54)
+            (name "OUT1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at 0 5.08 270)
+            (length 2.54)
+            (name "V+" (effects (font (size 1.27 1.27))))
+            (number "8" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at 0 -5.08 90)
+            (length 2.54)
+            (name "V-" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+        )
+        (symbol "AD826ARZ-REEL7_2_1"
+          (polyline
+            (pts
+              (xy -2.54 2.54) (xy -2.54 -2.54) (xy 2.54 0) (xy -2.54 2.54)
+            )
+            (stroke (width 0.25) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -1.651 1.27) (xy -0.889 1.27)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.27 0.889) (xy -1.27 1.651)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.651 -1.27) (xy -0.889 -1.27)
+            )
+            (stroke (width 0.15) (type default))
+            (fill (type none))
+          )
+          (pin input line
+            (at -5.08 1.27 0)
+            (length 2.54)
+            (name "+IN2" (effects (font (size 1.27 1.27))))
+            (number "5" (effects (font (size 1.27 1.27))))
+          )
+          (pin input line
+            (at -5.08 -1.27 0)
+            (length 2.54)
+            (name "-IN2" (effects (font (size 1.27 1.27))))
+            (number "6" (effects (font (size 1.27 1.27))))
+          )
+          (pin output line
+            (at 5.08 0 180)
+            (length 2.54)
+            (name "OUT2" (effects (font (size 1.27 1.27))))
+            (number "7" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at 0 5.08 270)
+            (length 2.54)
+            (name "V+" (effects (font (size 1.27 1.27))))
+            (number "8" (effects (font (size 1.27 1.27))))
+          )
+          (pin power_in line
+            (at 0 -5.08 90)
+            (length 2.54)
+            (name "V-" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+)
