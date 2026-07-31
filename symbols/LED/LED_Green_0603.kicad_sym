@@ -9,9 +9,9 @@
     			(property "Value" "LED_Green_0603" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Footprint" "sldrnrd:LED_0603" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "Manufacturer" "EVERLIGHT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "MPN" "19-217/GHC-YR1S2/3T" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-    			(property "LCSC" "C72043" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "Manufacturer" "NationStar" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "MPN" "NCD0603G1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    			(property "LCSC" "C84267" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     			(symbol "LED_Green_0603_0_1"
     				(polyline (pts (xy -1.27 1.27) (xy -1.27 -1.27)) (stroke (width 0.254) (type default)) (fill (type none)))
     				(polyline (pts (xy -1.27 0) (xy 1.27 0)) (stroke (width 0) (type default)) (fill (type none)))

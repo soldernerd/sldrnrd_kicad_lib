@@ -14031,7 +14031,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "EVERLIGHT"
+		(property "Manufacturer" "NationStar"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14042,7 +14042,7 @@
 				)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "MPN" "NCD0603G1"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14053,7 +14053,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C84267"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15945,7 +15945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Memory/EEPROM/24LC256.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Memory/EEPROM/FM24C256E.pdf"
 			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15967,7 +15967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Microchip"
+		(property "Manufacturer" "FUDAN MICRO"
 			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15978,7 +15978,7 @@
 				)
 			)
 		)
-		(property "MPN" "24LC256-I/ST"
+		(property "MPN" "FM24C256E-TS-T-G"
 			(at 0 -21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15989,7 +15989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C87823"
+		(property "LCSC" "C908401"
 			(at 0 -24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22383,6 +22383,243 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Transistor/MosfetN/FS8205A_TechPublic"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FS8205A"
+			(at 0 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:SOT-23-6"
+			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetN/FS8205A_TechPublic.pdf"
+			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 0 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FS8205A"
+			(at 0 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2830320"
+			(at 0 -21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "MOSFETs"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Transistor/MosfetN/FS8205A_TechPublic_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -3.17 -1.9)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 5.08 270)
+				(length 2.54)
+				(name "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

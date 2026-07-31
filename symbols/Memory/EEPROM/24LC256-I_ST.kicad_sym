@@ -28,28 +28,28 @@
         )
         (property
           "Datasheet"
-          "${SLDRNRD_LIB}/datasheets/Memory/EEPROM/24LC256.pdf"
+          "${SLDRNRD_LIB}/datasheets/Memory/EEPROM/FM24C256E.pdf"
           (id 3)
           (at 0 -16.51 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Manufacturer"
-          "Microchip"
+          "FUDAN MICRO"
           (id 4)
           (at 0 -19.05 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "MPN"
-          "24LC256-I/ST"
+          "FM24C256E-TS-T-G"
           (id 5)
           (at 0 -21.59 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "LCSC"
-          "C87823"
+          "C908401"
           (id 6)
           (at 0 -24.13 0)
           (effects (font (size 1.27 1.27) ) hide)
