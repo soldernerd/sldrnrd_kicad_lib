@@ -93,13 +93,13 @@
             (number "2" (effects (font (size 1.27 1.27))))
           )
           (pin unspecified line
-            (at 12.70 6.35 180)
+            (at 12.70 3.81 180)
             (length 5.08)
             (name "WP" (effects (font (size 1.27 1.27))))
             (number "7" (effects (font (size 1.27 1.27))))
           )
           (pin power_in line
-            (at 12.70 -6.35 180)
+            (at -12.70 -1.27 0)
             (length 5.08)
             (name "VSS" (effects (font (size 1.27 1.27))))
             (number "4" (effects (font (size 1.27 1.27))))
@@ -111,7 +111,7 @@
             (number "6" (effects (font (size 1.27 1.27))))
           )
           (pin power_in line
-            (at -12.70 -6.35 0)
+            (at 12.70 6.35 180)
             (length 5.08)
             (name "VCC" (effects (font (size 1.27 1.27))))
             (number "8" (effects (font (size 1.27 1.27))))
