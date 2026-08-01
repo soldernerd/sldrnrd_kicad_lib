@@ -1,12 +1,15 @@
 (footprint "SOD-323"
 	(version 20260206)
-	(generator "kicad-footprint-generator")
+	(generator "pcbnew")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SOD-323, 2 Pin (https://www.nxp.com/docs/en/package-information/SOD323.pdf)")
 	(tags "SOD SOD-323 Diode")
 	(property "Reference" "REF**"
 		(at 0 -1.85 0)
 		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1d490b37-939e-45cd-9ca0-3a07ec1d07a5")
 		(effects
 			(font
 				(size 1 1)
@@ -17,10 +20,34 @@
 	(property "Value" "SOD-323"
 		(at 0 1.9 0)
 		(layer "F.Fab")
+		(hide yes)
+		(uuid "42586f35-7f0e-4d86-8b89-4359205d0334")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d504bb3-9bdb-4517-98f6-49e240a6ab0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f98a400-438a-48c2-be97-01a85000aeca")
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
 	)
@@ -34,6 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "66ad270b-5f1a-4622-8257-293bd749b837")
 	)
 	(fp_line
 		(start -1.61 -0.85)
@@ -43,6 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "0b301a42-d08c-4be3-8749-7a5e7a3a2722")
 	)
 	(fp_line
 		(start -1.61 0.85)
@@ -52,6 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "16c6d766-8b7a-4b70-824c-6b87530e7316")
 	)
 	(fp_line
 		(start -1.6 -0.95)
@@ -61,6 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "7145e980-c3c0-40b1-9061-5392a4c303c7")
 	)
 	(fp_line
 		(start -1.6 -0.95)
@@ -70,6 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "ba056694-b1ce-4811-b78a-f8eb1d537f63")
 	)
 	(fp_line
 		(start -1.6 0.95)
@@ -79,6 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "8cd37500-eb84-421b-8263-15f5d9465311")
 	)
 	(fp_line
 		(start 1.6 -0.95)
@@ -88,6 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "6f403a88-1a81-45aa-95e4-c4511f37d113")
 	)
 	(fp_line
 		(start -0.9 -0.7)
@@ -97,6 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "a20e3765-d90d-4194-950f-e2bcfeb7f65e")
 	)
 	(fp_line
 		(start -0.9 0.7)
@@ -106,6 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "3d5be5c1-21df-49c5-b758-6640c0145afc")
 	)
 	(fp_line
 		(start -0.3 -0.35)
@@ -115,6 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "6627b9f6-4a07-47f1-b819-f64d151a48a2")
 	)
 	(fp_line
 		(start -0.3 0)
@@ -124,6 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "0a65f06a-2cdf-4147-b3df-6460647b544b")
 	)
 	(fp_line
 		(start -0.3 0)
@@ -133,6 +171,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "adfcbbfa-53c5-483d-a1a5-5ffc66bb9d1b")
 	)
 	(fp_line
 		(start 0.2 -0.35)
@@ -142,6 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "6f99cf57-6063-415b-908d-f4d85bde6b7a")
 	)
 	(fp_line
 		(start 0.2 0)
@@ -151,6 +191,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "2014943f-5372-4086-a9ef-449fbeec2687")
 	)
 	(fp_line
 		(start 0.2 0.35)
@@ -160,6 +201,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "07699ee7-06ca-4328-ae24-456443e1c5fa")
 	)
 	(fp_line
 		(start 0.9 -0.7)
@@ -169,6 +211,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "0fe793fe-63f2-4d24-84b8-a8d141448661")
 	)
 	(fp_line
 		(start 0.9 0.7)
@@ -178,10 +221,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "cc6477c4-d791-45c8-bd02-f83c8d858fb7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.85 0)
 		(layer "F.Fab")
+		(uuid "1e76cdc6-786e-44d0-8983-0f779c9cc6d8")
 		(effects
 			(font
 				(size 1 1)
@@ -194,12 +239,14 @@
 		(size 0.6 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "f1ddf5e1-736e-4c12-bf5d-fd9c8d623724")
 	)
 	(pad "2" smd roundrect
 		(at 1.05 0)
 		(size 0.6 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(uuid "b59aa5f5-bf53-4a9c-a5bb-36a2ee4d9b7e")
 	)
 	(embedded_fonts no)
 	(model "../3dmodels/SOD-323.step"
