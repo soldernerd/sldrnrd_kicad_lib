@@ -2,14 +2,14 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "C0603_10u"
+  (symbol "C0603_2u2"
     			(pin_numbers hide)
     			(pin_names (offset 0) hide)
     			(exclude_from_sim no)
     			(in_bom yes)
     			(on_board yes)
     			(property "Reference" "C" (at 2.54 0 90) (effects (font (size 1.27 1.27))))
-    			(property "Value" "10u" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
+    			(property "Value" "2u2" (at -2.54 0 90) (effects (font (size 1.27 1.27))))
     			(property "Footprint" "sldrnrd:C_0603"
     				(at 0 0 0)
     				(show_name no)
@@ -32,7 +32,7 @@
     					)
     				)
     			)
-    			(property "Description" "10uF Capacitor, 0603"
+    			(property "Description" "2.2uF Capacitor, 0603"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -43,7 +43,7 @@
     					)
     				)
     			)
-    			(property "LCSC" "C96446"
+    			(property "LCSC" "C23630"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -65,7 +65,7 @@
     					)
     				)
     			)
-    			(property "Voltage" "25V"
+    			(property "Voltage" "16V"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -87,7 +87,7 @@
     					)
     				)
     			)
-    			(property "MPN" "CL10A106MA8NRNC"
+    			(property "MPN" "CL10A225KO8NNNC"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -98,13 +98,13 @@
     					)
     				)
     			)
-    			(symbol "C0603_10u_0_1"
+    			(symbol "C0603_2u2_0_1"
     				(polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
     				(polyline (pts (xy -1.524 0.508) (xy 1.524 0.508))
     					(stroke (width 0.3048) (type default)) (fill (type none)))
     			)
-    			(symbol "C0603_10u_1_1"
+    			(symbol "C0603_2u2_1_1"
     				(pin passive line (at 0 2.54 270) (length 2.032)
     					(name "~" (effects (font (size 1.27 1.27))))
     					(number "1" (effects (font (size 1.27 1.27))))

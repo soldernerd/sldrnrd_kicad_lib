@@ -43,7 +43,7 @@
     					)
     				)
     			)
-    			(property "LCSC" "C126589"
+    			(property "LCSC" "C377773"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -54,7 +54,7 @@
     					)
     				)
     			)
-    			(property "Dielectric" "X7R"
+    			(property "Dielectric" "X5R"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -65,7 +65,7 @@
     					)
     				)
     			)
-    			(property "Voltage" "16V"
+    			(property "Voltage" "50V"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -76,7 +76,7 @@
     					)
     				)
     			)
-    			(property "Manufacturer" "Murata"
+    			(property "Manufacturer" "Samsung Electro-Mechanics"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -87,7 +87,7 @@
     					)
     				)
     			)
-    			(property "MPN" "GCM21BR71C225KA64L"
+    			(property "MPN" "CL21A225KBQNNNE"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)

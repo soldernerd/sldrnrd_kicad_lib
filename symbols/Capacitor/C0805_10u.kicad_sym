@@ -43,7 +43,7 @@
     					)
     				)
     			)
-    			(property "LCSC" "C1952580"
+    			(property "LCSC" "C440198"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -54,7 +54,7 @@
     					)
     				)
     			)
-    			(property "Dielectric" "X7R"
+    			(property "Dielectric" "X5R"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -65,7 +65,7 @@
     					)
     				)
     			)
-    			(property "Voltage" "10V"
+    			(property "Voltage" "50V"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -76,7 +76,7 @@
     					)
     				)
     			)
-    			(property "Manufacturer" "Yageo"
+    			(property "Manufacturer" "Murata"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
@@ -87,7 +87,7 @@
     					)
     				)
     			)
-    			(property "MPN" "CC0805KKX7R6BB106"
+    			(property "MPN" "GRM21BR61H106KE43L"
     				(at 0 0 0)
     				(show_name no)
     				(do_not_autoplace no)
