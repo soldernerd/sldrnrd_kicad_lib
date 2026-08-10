@@ -2,7 +2,7 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "CPT-9019A-SMT-TR"
+  (symbol "CPT-9019S-SMT-TR"
         (in_bom yes)
         (on_board yes)
         (property
@@ -14,47 +14,47 @@
         )
         (property
           "Value"
-          "CPT-9019A-SMT-TR"
+          "CPT-9019S-SMT-TR"
           (id 1)
           (at 0 -6.35 0)
           (effects (font (size 1.27 1.27) ) )
         )
         (property
           "Footprint"
-          "sldrnrd:CPT-9019A"
+          "sldrnrd:CPT-9019S"
           (id 2)
           (at 0 -8.89 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Datasheet"
-          "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019A.pdf"
+          "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019S-SMT-TR.pdf"
           (id 3)
           (at 0 -11.43 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Manufacturer"
-          "CUI"
+          "CUI (Same Sky)"
           (id 4)
           (at 0 -13.97 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "MPN"
-          "CPT-9019A-SMT-TR"
+          "CPT-9019S-SMT-TR"
           (id 5)
           (at 0 -16.51 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "LCSC"
-          "C20181991"
+          "C95163"
           (id 6)
           (at 0 -19.05 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
-        (symbol "CPT-9019A-SMT-TR_0_1"
+        (symbol "CPT-9019S-SMT-TR_0_1"
           (polyline
             (pts
               (xy 2.79 -2.79) (xy -1.27 -2.79) (xy -1.27 2.79) (xy 2.79 2.79) (xy 6.35 6.35) (xy 6.35 -6.35) (xy 2.79 -2.79)

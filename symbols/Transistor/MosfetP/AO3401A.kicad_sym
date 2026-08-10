@@ -2,7 +2,7 @@
   (version 20211014)
   (generator lfaes_kicad_lib)
 
-  (symbol "DMG2305UX-13"
+  (symbol "AO3401A"
         (in_bom yes)
         (on_board yes)
         (property
@@ -14,7 +14,7 @@
         )
         (property
           "Value"
-          "DMG2305UX-13"
+          "AO3401A"
           (id 1)
           (at 0 -15.24 0)
           (effects (font (size 1.27 1.27) ) )
@@ -28,28 +28,28 @@
         )
         (property
           "Datasheet"
-          "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/DMG2305UX.pdf"
+          "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/AO3401A.pdf"
           (id 3)
           (at 0 -20.32 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "Manufacturer"
-          "Diodes Inc."
+          "Alpha & Omega Semiconductor"
           (id 4)
           (at 0 -22.86 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "MPN"
-          "DMG2305UX-13"
+          "AO3401A"
           (id 5)
           (at 0 -25.40 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
         (property
           "LCSC"
-          "C144153"
+          "C15127"
           (id 6)
           (at 0 -27.94 0)
           (effects (font (size 1.27 1.27) ) hide)
@@ -61,7 +61,7 @@
           (at 0 -30.48 0)
           (effects (font (size 1.27 1.27) ) hide)
         )
-        (symbol "DMG2305UX-13_0_1"
+        (symbol "AO3401A_0_1"
           (polyline
             (pts
               (xy 0.00 2.54) (xy 0.00 -2.54)

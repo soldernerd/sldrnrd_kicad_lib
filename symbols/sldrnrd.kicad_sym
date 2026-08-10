@@ -491,7 +491,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Audio/CPT-9019A-SMT-TR"
+	(symbol "Audio/CPT-9019S-SMT-TR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -507,7 +507,7 @@
 				)
 			)
 		)
-		(property "Value" "CPT-9019A-SMT-TR"
+		(property "Value" "CPT-9019S-SMT-TR"
 			(at 0 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -517,7 +517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:CPT-9019A"
+		(property "Footprint" "sldrnrd:CPT-9019S"
 			(at 0 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -528,7 +528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019A.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019S-SMT-TR.pdf"
 			(at 0 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -550,7 +550,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CUI"
+		(property "Manufacturer" "CUI (Same Sky)"
 			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -561,7 +561,7 @@
 				)
 			)
 		)
-		(property "MPN" "CPT-9019A-SMT-TR"
+		(property "MPN" "CPT-9019S-SMT-TR"
 			(at 0 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -572,7 +572,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20181991"
+		(property "LCSC" "C95163"
 			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -583,7 +583,7 @@
 				)
 			)
 		)
-		(symbol "Audio/CPT-9019A-SMT-TR_0_1"
+		(symbol "Audio/CPT-9019S-SMT-TR_0_1"
 			(polyline
 				(pts
 					(xy 2.79 -2.79) (xy -1.27 -2.79) (xy -1.27 2.79) (xy 2.79 2.79) (xy 6.35 6.35) (xy 6.35 -6.35)
@@ -44134,7 +44134,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Transistor/MosfetP/DMG2305UX-13"
+	(symbol "Transistor/MosfetP/AO3401A"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -44150,7 +44150,7 @@
 				)
 			)
 		)
-		(property "Value" "DMG2305UX-13"
+		(property "Value" "AO3401A"
 			(at 0 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44171,7 +44171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/DMG2305UX.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/AO3401A.pdf"
 			(at 0 -20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44193,7 +44193,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc."
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
 			(at 0 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44204,7 +44204,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMG2305UX-13"
+		(property "MPN" "AO3401A"
 			(at 0 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44215,7 +44215,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C144153"
+		(property "LCSC" "C15127"
 			(at 0 -27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44237,7 +44237,7 @@
 				)
 			)
 		)
-		(symbol "Transistor/MosfetP/DMG2305UX-13_0_1"
+		(symbol "Transistor/MosfetP/AO3401A_0_1"
 			(polyline
 				(pts
 					(xy 0 2.54) (xy 0 -2.54)
