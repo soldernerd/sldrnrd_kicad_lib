@@ -43,6 +43,7 @@ always be cross-checked against it.
 | C2830320 | FS8205A | TECH PUBLIC | SOT-23-6 | 180 | Observed: JLCPCB assembly preview needed the part rotated 180 degrees relative to the KiCad-derived CPL rotation. Direction (CW/CCW) is irrelevant at 180 degrees. |
 | C351410 | DW01A | PUOLOP | SOT-23-6 | -90 (equiv. +270) | Observed: JLCPCB assembly preview needed the part rotated 90 degrees CW relative to the KiCad-derived CPL rotation for correct physical orientation. CW = negative in the CCW-positive convention used here. |
 | C2286 | KT-0603R | KENTO | LED_0603 | 180 | Observed: JLCPCB assembly preview needed the part rotated 180 degrees relative to the KiCad-derived CPL rotation. Direction (CW/CCW) is irrelevant at 180 degrees. |
+| C5563894 | FTSH-107-01-L-DV-K-A | Samtec | Header_50mil_2x07 | 180 | Observed: JLCPCB assembly preview showed the single-long-wall/pin-1 side on the opposite end from the correct KiCad placement. Direction (CW/CCW) is irrelevant at 180 degrees. |
 
 ## Important caveat
 
