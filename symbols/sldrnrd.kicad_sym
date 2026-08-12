@@ -11500,7 +11500,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Connector/50Mil/FTSH-107-01-L-DV-K-A.pdf"
 			(at 0 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
